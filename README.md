@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+### Welcome 👋
 
-You can use the [editor on GitHub](https://github.com/juniortada/juniortada.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**This is my** is ✨ _special_ ✨ little blog for myself in the future.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a space to post content about technology
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/juniortada/juniortada.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- 🔭 I’m currently working on [CashU Fintech](https://www.cashu.com.br/)
+- 🌱 I’m currently learning multiples languages
+- 💬 Ask me about python, ruby, flask, sanic, rails, aws, data science, machine learning, mlops, devops
+- ⚡ Fun fact: [Bild Rails 7 Applications With Docker](https://github.com/juniortada/juniortada/blob/main/posts/build_rails_7_applications_with_docker.md)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- 📫 How to reach me: juniortada@gmail.com
