@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+### Junior Tada Blog 👋
+
 ## Criando aplicação demo Ruby on Rails 7 com Docker
 
 Olá, este guia tem por objetivo criar um hello world 
