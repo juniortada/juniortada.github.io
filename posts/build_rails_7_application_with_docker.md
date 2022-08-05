@@ -132,6 +132,7 @@ Caso alguma instalação de gem falhar,
 rode novamente o docker-compose build e depois docker-compose up
 
 Acesse http://0.0.0.0:3000/ e voilà!!
-[Captura de tela de 2022-07-02 00-21-55](https://user-images.githubusercontent.com/6554847/176985440-bcab25aa-abbd-4194-beee-434a48d141f4.png)
 
-[voltar](./)
+![Captura de tela de 2022-07-02 00-21-55](https://user-images.githubusercontent.com/6554847/176985440-bcab25aa-abbd-4194-beee-434a48d141f4.png)
+
+[voltar](https://juniortada.github.io/)
