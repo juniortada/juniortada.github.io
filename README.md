@@ -1,4 +1,4 @@
-### Welcome 👋
+### Welcome 👋 [![juniortada.github.io status](https://github.com/juniortada/juniortada.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/juniortada/juniortada.github.io/actions/workflows/pages/pages-build-deployment)
 
 **This is my** is ✨ _special_ ✨ little blog for myself in the future.
 
