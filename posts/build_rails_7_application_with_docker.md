@@ -56,7 +56,7 @@ services:
       - redis
       # - firefox
     environment:
-      DATABASE_URL: postgres://postgres@db
+      APP_DATABASE_URL: postgres://postgres@db
       REDIS_URL: redis://redis
       RAILS_ENV: development
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
@@ -97,12 +97,13 @@ docker-compose run web bash
 rails new . --force --database=postgresql
 ```
 
-Altere as propriedades de root sobre os arquivos criados
+Desligue o container com o comando 'CTRL + C'
+
+Altere as propriedades de root sobre os arquivos criados (atenção para o ponto no final do comando)
 ```sh
 chown -R $USER:$USER .
 ```
 
-Desligue o container com o comando 'CTRL + C'
 Configure o arquivo config/database.yml
 ```yml
 default: &default
