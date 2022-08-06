@@ -29,6 +29,7 @@ CMD ["rails", "server", "-b", "0.0.0.0"]
 Agora vamos criar um arquivo com o nome docker-compose.yml
 para instalar banco de dados postgresql e redis
 ```yml
+# docker-compose.yml
 version: '3.3'
 services:
   db:
@@ -68,9 +69,14 @@ volumes:
 
 Agora vamos criar um arquivo com o nome Gemfile
 ```sh
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
 ruby '3.1.2'
 
-gem 'rails', '~> 7.0.3'
+gem 'rails', '~> 7.0'
 ```
 
 Agora vamos construir nosso container pela primeira vez
