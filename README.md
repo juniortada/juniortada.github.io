@@ -10,6 +10,7 @@ This is a space to post content about technology
 - 🌱 I’m currently learning multiples languages
 - 💬 Ask me about python, ruby, flask, sanic, rails, aws, data science, machine learning, mlops, devops
 - ⚡ Fun fact: [Bild Rails 7 Applications With Docker](https://github.com/juniortada/juniortada/blob/main/posts/build_rails_7_applications_with_docker.md)
+- :notebook: More [Here](https://juniortada.github.io/posts/all)
 
 ### Support or Contact
 
