@@ -134,7 +134,7 @@ production:
     password: <%= ENV["APP_DATABASE_PASSWORD"] %>
 ```
 
-Inicie tudo novamente com docker-compose up
+Inicie tudo novamente com docker compose up
 Caso alguma instalação de gem falhar, 
 rode novamente o docker-compose build e depois docker-compose up
 
