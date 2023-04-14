@@ -81,18 +81,18 @@ gem 'rails', '~> 7.0'
 
 Agora vamos construir nosso container pela primeira vez
 ```sh
-docker-compose build
+docker compose build
 ```
 
 Após instalar todas as dependências do projeto inicie o container
 ```sh
-docker-compose up
+docker compose up
 ```
 
 Abra uma nova aba do terminal para acessar a máquina docker
 e construir nosso aplicativo rails
 ```sh
-docker-compose run web bash
+docker compose run web bash
 
 rails new . --force --database=postgresql
 ```
