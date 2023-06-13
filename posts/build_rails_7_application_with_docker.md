@@ -19,11 +19,16 @@ RUN mkdir -p /app
 COPY . /app
 WORKDIR /app
 
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+# Dependencies
+RUN apt-get update -qq && apt-get install -y postgresql-client
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+&& apt-get install -y nodejs
+RUN npm install --location=global yarn
 COPY Gemfile /app/Gemfile
 RUN bundle install
 
-CMD ["rails", "server", "-b", "0.0.0.0"]
+# Install node modules
+RUN yarn install --check-files
 ```
 
 Agora vamos criar um arquivo com o nome docker-compose.yml
@@ -95,6 +100,9 @@ e construir nosso aplicativo rails
 docker compose run web bash
 
 rails new . --force --database=postgresql
+
+# caso queira criar com bootstrap
+rails new . -j esbuild --css bootstrap --force -d=postgresql
 ```
 
 Desligue o container com o comando 'CTRL + C'
