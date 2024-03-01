@@ -12,7 +12,7 @@ com Ruby on Rails 7 dentro de um container Docker.
 Primeiro vamos criar um arquivo com o nome Dockerfile
 ```sh
 # Dockerfile
-FROM ruby:3.1.2
+FROM ruby:3.2.3
 
 # Copy the main application.
 RUN mkdir -p /app
@@ -79,9 +79,9 @@ Agora vamos criar um arquivo com o nome Gemfile
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.2'
+ruby '3.2.3'
 
-gem 'rails', '~> 7.0'
+gem 'rails', '~> 7.1'
 ```
 
 Agora vamos construir nosso container pela primeira vez
@@ -142,12 +142,16 @@ production:
     password: <%= ENV["APP_DATABASE_PASSWORD"] %>
 ```
 
+PS: o rails 7.1 gera arquivos automáticos para Docker, caso queira volte para a versão
+inicial desse post e inicie com docker compose up --build
 Inicie tudo novamente com docker compose up
 Caso alguma instalação de gem falhar, 
 rode novamente o docker-compose build e depois docker-compose up
 
 Acesse http://0.0.0.0:3000/ e voilà!!
 
-![Captura de tela de 2022-07-02 00-21-55](https://user-images.githubusercontent.com/6554847/176985440-bcab25aa-abbd-4194-beee-434a48d141f4.png)
+PS: no primeiro acesso da página inicial click no botão create database
+
+![Captura de tela de 2024-02-29 23-28-51](https://github.com/juniortada/juniortada.github.io/assets/6554847/7c456258-5378-47d5-a14f-11d131604be2)
 
 [voltar](https://juniortada.github.io/)
