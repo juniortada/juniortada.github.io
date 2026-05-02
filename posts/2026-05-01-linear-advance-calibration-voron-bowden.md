@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Calibrando o Linear Advance no Marlin com Bowden — Voron 2.4"
+title: "Junior Tada Blog 👋"
 date: 2026-05-01
 tags: [3d-printing, marlin, voron, calibration, linear-advance]
 ---
 
-### Junior Tada Blog 👋
+### Calibrando o Linear Advance no Marlin com Bowden — Voron 2.4
 
 Se você imprime com extrusor Bowden e nota bolhas, blobs nos cantos ou excesso de material em círculos pequenos, o **Linear Advance** (equivalente ao Pressure Advance do Klipper) é a solução. Este guia mostra o passo a passo completo para calibrar no Marlin 2.x com uma Voron 2.4 e extrusor Voron M4 com tubo de 400 mm.
 
