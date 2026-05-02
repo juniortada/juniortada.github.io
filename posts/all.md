@@ -12,4 +12,6 @@ Olá, você encontra o menu com todas as postagens.
 
 [Mínimo de qualidade](https://juniortada.github.io/posts/minimum_quality_for_rails_7)
 
+[Configurar fluxo Marlin](https://juniortada.github.io/posts/2026-05-01-linear-advance-calibration-voron-bowden)
+
 [Voltar](https://juniortada.github.io)
