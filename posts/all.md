@@ -14,4 +14,6 @@ Olá, você encontra o menu com todas as postagens.
 
 [Configurar fluxo Marlin](https://juniortada.github.io/posts/2026-05-01-linear-advance-calibration-voron-bowden)
 
+[Guia de compras Voron baixo custo](https://juniortada.github.io/posts/voron_2_4_low_cost)
+
 [Voltar](https://juniortada.github.io)
