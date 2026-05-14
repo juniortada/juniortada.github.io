@@ -16,14 +16,14 @@ tags: [3d-printing, marlin, voron, calibration, linear-advance]
 
   <img width="572" height="659" alt="Captura de tela de 2026-05-14 16-16-26" src="https://github.com/user-attachments/assets/26ab6c57-4fe2-44d1-83f7-60912ad14f04" />
   
-  ##### Perfil de alumínio 20x20 pode ser encontradado na forseti, cncparts e aliexpress.
+  #### Perfil de alumínio 20x20 pode ser encontradado na forseti, cncparts e aliexpress.
   Atualmente o preço não compensa comprar no aliexpress. Fica mais barato comprar peças inteiras
   e cortar mas você já pode solicitar as peças nas medidas da impressora.
   Para cortar precisa de ferramentas para fazer corte com precisão, além de furos e rosca.
   - https://loja.forsetisolucoes.com.br/produto/perfil-estrutural-em-aluminio-20x20-t-slot-canal-6/
   - https://www.mercadolivre.com.br/perfil-de-aluminio-v-slot-20x20-1-peca-x-1200-mm/p/MLB2072566857
 
-  ##### Parafusos, arruelas e porcas M3 e M5 tamanhos variados(verificar lista oficial), pode ser comprado em qualquer loja de ferragens.
+  #### Parafusos, arruelas e porcas M3 e M5 tamanhos variados(verificar lista oficial), pode ser comprado em qualquer loja de ferragens.
   Não precisa ser inox que custa muito mais caro, apenas zincado ou preto.
   Porca v-slot (porca que trava parafuso no pefil de alumínio) tanto M3 como M5
   só utilizei em partes realmente estruturais, para prender skirt, painéis, etc eu imprimir os adaptadores para porcas normais.
@@ -33,12 +33,12 @@ tags: [3d-printing, marlin, voron, calibration, linear-advance]
 
   <img width="691" height="455" alt="Captura de tela de 2026-05-14 16-13-20" src="https://github.com/user-attachments/assets/b400ebaa-ef67-49bb-8c1b-c5a23aff9bb6" />
 
-  ##### Guias lineares podem ser encontradas na forseti, cncparts e aliexpress.
+  #### Guias lineares podem ser encontradas na forseti, cncparts e aliexpress.
   O preço e disponibilidade varia, verifique as medidas no guia oficial de acordo com o seu modelo
   - https://pt.aliexpress.com/item/1005005462898522.html
   - https://loja.forsetisolucoes.com.br/produto/guia-linear-mgn-series-9mm-12mm-15mm-aco-s55c/
 
-  ##### Correias e polias
+  #### Correias e polias
   Pode ser encontrando no mercadolivre ou aliexpress, verifique as medidas no guia oficial.
   O preço e a disponibilidade varia, assim como frete. Existem kit's no aliexpress.
   Cuidado com o preço do frete se comprar pulverizado entre vários fornecedores.
@@ -65,7 +65,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
  - https://www.mercadolivre.com.br/kit-especial-para-vacinahotbh/p/MLB2052813762
  - https://www.mercadolivre.com.br/fonte-de-alimentacao-chaveada-ms-400w-24v-166a-bivolt/up/MLBU2863288042
   
-  ##### Motherboard
+  #### Motherboard
   Aqui vai um observação importante, você NÃO precisa de um raspeberry pi se for instalar Marlin 2.
   Isso não quer dizer que eu recomendo, atualmente minha impressora está funcionando muito bem assim,
   mas já estou com planos de migrar para Klipper com um raspberry pi 2 1gb.
@@ -87,7 +87,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
   - https://pt.aliexpress.com/item/1005007505557471.html
   - https://pt.aliexpress.com/item/1005009393017580.html
 
-  ##### Mesa aquecida
+  #### Mesa aquecida
   SSR 40a para alimentar a mesa aquecida. Pode ser encontrado no mercadolivre/aliexpress. 
   O preço é baixo, procure alguma opção com frete grátis e dissipador de calor incluso.
   Com dissipador apropriado não precisa de fan. 
@@ -123,7 +123,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
   - https://pt.aliexpress.com/item/1005008578258312.html
   - https://pt.aliexpress.com/item/1005008158165231.html
 
-  ##### Motores
+  #### Motores
   Montei com nema 17 17HS4401, não são os recomendados, mas funcionam.
   Usei em todos os eixos, inclusive nos extrusores.
   Pode ser tanto do mercado livre como aliexpress, verifique frete e taxas.
@@ -136,7 +136,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
   Link de adaptador de fan 4010 para os motores
   - https://www.thingiverse.com/thing:1409754
 
-  ##### EndStops
+  #### EndStops
   Existe o modelo próprio da Voron
   - https://pt.aliexpress.com/item/1005009408301773.html
   
@@ -147,7 +147,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
   não por custos já que um endstop físico é barato.
     
     
-  ##### HotEnd e Extrusor
+  #### HotEnd e Extrusor
   Estou utilizando um clone E3D v6 12v somente porque já tinha também.
   Essa é a economia que estou mais sofrendo até aqui, não acho que vale a pena.
   Vou trocar por hotend Bambu 24v ou E3D REVO 24v.
@@ -183,7 +183,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
   - 1x 5015 **Turbina**
   - https://pt.aliexpress.com/item/1005007995311296.html
 
-  ##### Painéis de acrílico
+  #### Painéis de acrílico
   Pode ser encontrado no mercadolivre ou lojas de corte a laser.
   Caso você tenha equipamento, é realmente fácil de cortar.
   Os laterais/superior é literalmente um quadrado.
@@ -195,7 +195,7 @@ Pode ser comprado no mercado livre/loja de materiais elétricos. Somente exemplo
   Link dos arquivos para corte laser:
   - https://github.com/VoronDesign/Voron-2/tree/Voron2.4/Drawing_DXFs
 
-  ##### Peças impressas
+  #### Peças impressas
   Caso você não tenha uma impressora, compre somente:
   - conjunto Z de motores + correias.
   - gantry completo (x/y a/b)
